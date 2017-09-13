@@ -7,4 +7,6 @@
 
 [古今中外那些哲学家们](https://github.com/weita0/blog/blob/master/2017-09-12.md)
 
+[ES6中的常用特性和那些不常用但可能会非常有用的特性(Part 1)](https://github.com/weita0/blog/blob/master/2017-09-13.md)
+
 
