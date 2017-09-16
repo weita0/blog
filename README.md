@@ -11,6 +11,8 @@
 
 [ES6中的常用特性和那些不常用但可能会非常有用的特性(Part 2)](https://github.com/weita0/blog/blob/master/2017-09-14.md)
 
+[作为程序员对程序员这种职业的思考](https://github.com/weita0/blog/blob/master/2017-09-15.md)
+
 #### 收藏
 [Markdown编辑器语法指南](https://segmentfault.com/markdown)
 
