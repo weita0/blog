@@ -13,10 +13,11 @@
 
 [作为程序员对程序员这种职业的思考](https://github.com/weita0/blog/blob/master/2017-09-15.md)
 
-[关于函数式编程的一些基本概念](https://github.com/weita0/blog/blob/master/2017-09-19.md)
+[函数式编程的一些基本概念](https://github.com/weita0/blog/blob/master/2017-09-19.md)
 
 ### 收藏
 [Markdown编辑器语法指南](https://segmentfault.com/markdown)
+
 [Glossary of Modern JavaScript Concepts: Part 1](https://auth0.com/blog/glossary-of-modern-javascript-concepts/)
 
 
