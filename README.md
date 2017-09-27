@@ -15,8 +15,7 @@
 
 [函数式编程的一些基本概念](https://github.com/weita0/blog/blob/master/2017-09-19.md)
 
-[React和Vue的比较](https://github.com/weita0/blog/blob/master/2017-09-27.md)
-
+[React和Vue的比较](https://github.com/weita0/blog/blob/master/2917-09-27.md)                  
 ### 收藏
 [Markdown编辑器语法指南](https://segmentfault.com/markdown)
 
