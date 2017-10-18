@@ -17,7 +17,7 @@
 
 [React和Vue的比较](https://github.com/weita0/blog/blob/master/2017-09-27.md)               
 
-[Timer & Event Loop in Node.js](https://github.com/weita0/blog/blob/master/2917-09-28.md)
+[Timer & Event Loop in Node.js](https://github.com/weita0/blog/blob/master/2017-09-28.md)
 
 ### 收藏的文章
 [Markdown编辑器语法指南](https://segmentfault.com/markdown)
