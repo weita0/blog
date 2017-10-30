@@ -69,7 +69,7 @@ system platform: 'darwin', 'freddbsd', 'linux', ''sunos', 'win32'...
 ### process.cwd()
 current working directory
 
-### Exit COdes
+### Exit Codes
 | Code | 含义 |
 | ---- | ---- |
 | 1 | Uncaught Fatal Exception |

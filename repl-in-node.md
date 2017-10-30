@@ -14,18 +14,17 @@ show this list of special commands
 ### .save
 save the current REPL session to a file 
 
-\> .save ./file/to/save.js
+> \> .save ./file/to/save.js
 ### .load
 load a file into the current PEPL session 
-> ```
-> .load ./file/to/load.js
-> ```
+> \> .load ./file/to/load.js
+
 ### .editor
 enter editor mode
 
 ## _ variable
 _ represents the most recently evaluated expression 
-> ```
-> ['a', 'b', 'c']
-> _.length // 3
-> ```
+
+> \> ['a', 'b', 'c']
+> \> _.length // 3
+
