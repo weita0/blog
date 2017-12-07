@@ -23,5 +23,7 @@
 //   return `${this.name}: "${this.message}"`
 // }
 const os = require('os')
-console.log(os.uptime())
+const buf1 = Buffer.from('hello world')
+console.log(Buffer.isEncoding(buf1, 'utf8'))
+
 
