@@ -16,7 +16,10 @@ Stream 是用于处理流数据的抽象接口. HTTP request和process.stdout就
 可写流包含 
 - 客户端的HTTP request
 - 服务器端的HTTP response
-- fs write stream, zlib/crypto/TCP stream, child process stdin以及 process.stdout, process.stderr
+- fs write stream
+- zlib/crypto/TCP stream
+- child process stdin 
+- process.stdout, process.stderr
 
 可写流最常用的方法：
 
@@ -55,6 +58,16 @@ paused 模式下，必须显示调用stream.read()方法来从流中读取数据
 
 - 调用stream.pause()方法
 - 取消'data'监听，并调用stream.unpipe()
+
+Readable stream的常用方法：
+
+readable.pipe(destination[, options])
+
+绑定一个writable到readable商，将可写流自动切换到flowing模式，将所有数据传给绑定的writable，数据流将被自动管理
+
+options:
+  end 在reader结束时写入，默认true
+
 
 
 
