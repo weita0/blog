@@ -15,7 +15,9 @@
 
 [函数式编程的一些基本概念](https://github.com/weita0/blog/blob/master/2017-09-19.md)
 
-[React和Vue的比较](https://github.com/weita0/blog/blob/master/2017-09-27.md)               
+[React和Vue的比较](https://github.com/weita0/blog/blob/master/2017-09-27.md)    
+
+[JavaScript Generator 浅析](https://github.com/weita0/blog/blob/master/generator.md)           
 
 ### Node合集
 [Timer & Event Loop](https://github.com/weita0/blog/blob/master/2017-09-28.md)
