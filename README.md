@@ -17,7 +17,11 @@
 
 [React和Vue的比较](https://github.com/weita0/blog/blob/master/2017-09-27.md)    
 
-[JavaScript Generator 浅析](https://github.com/weita0/blog/blob/master/generator.md)           
+[JavaScript Generator 浅析](https://github.com/weita0/blog/blob/master/generator.md)
+
+[React中的List和Key](https://github.com/weita0/blog/blob/master/lists-and-keys-in-react.md)
+
+
 
 ### Node合集
 [Timer & Event Loop](https://github.com/weita0/blog/blob/master/2017-09-28.md)

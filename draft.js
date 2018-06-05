@@ -1,14 +1,15 @@
 const os = require('os')
 const fs = require('fs')
 const stream = require('stream')
+const tty = require('tty')
+const net = require('net')
 
-
-let reader = process.stdin
-let writer = fs.createWriteStream('./wratable.md')
-reader.on('data', chunk => {
-  writer.write(chunk)
-  reader.pause()
+const server = net.createServer(socket => {
+  socket.end('goodbye \n')
+}).on('error', err => {
+  throw err
 })
-reader.on('end', () => {
-  console.log('finish')
+
+server.listen(() => {
+  console.log('opened server on', server.address().port)
 })
