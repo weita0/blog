@@ -52,7 +52,66 @@ module.exports = {
 }
 ```
 
+关于loader还需要知道：
+
+#### 1. loader可以是链式调用的，顺序是**从右向左**的
+
+```javascript
+module.exports = {
+  rules: [
+    {
+      test: /\.(css|scss)$/,
+      use: [
+        "style-loader", // create style nodes from JS string
+        "css-loader", // Css into CommonJS
+        "sass-loader" // Sass to css
+      ]
+    }
+  ]
+}
+```
+
+出于加载速度考虑，生产环境下不应该把css放在index.html的header里，利用**MiniCssExtractPlugin**这个插件把CSS拎出来放在一个单独的文件里，这样样式的加载就不会依赖于JS了
+
+```javascript
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+module.exports = {
+  rules: [
+    {
+      test: /\.(css|scss)$/,
+      use: [
+        process.env.NODE_ENV !== 'production' ? 'style-loader' : MiniCssExtractPlugin.loader
+        "css-loader", // Css into CommonJS
+        "sass-loader" // Sass to css
+      ]
+    }
+  ]
+}
+```
+
+#### 2. loader可以是异步或者同步的
+
+#### 3. loader被node调用，几乎可以做任何事
+
+#### 4. loader可以通过options对象被配置
+
+#### 5. Plugin比loader功能更强大
+
+loader的本质：
+
+通常来说，loader跟标准的node_modules模块没什么两样，一样通过npm install安装并且放在node_modules目录下
+
+一个loader模块应该export一个function
+
+也可以自己写一个loader，以文件形式保存，通常命名为xxx-loader，具体请参照这篇文档
+
+[Writing a Loader](https://webpack.js.org/contribute/writing-a-loader/)
+
 ### Plugins
+
+#### 什么是Plugin
+
+webpack插件本质上是一个JavaScript对象，这个对象有一个apply方法，webpack在执行时会调用这个方法，有很多有用的Plugin，会另起一篇文章来逐一介绍
 
 ### Mode
 

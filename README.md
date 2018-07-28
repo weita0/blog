@@ -21,7 +21,11 @@
 
 [React中的List和Key](https://github.com/weita0/blog/blob/master/lists-and-keys-in-react.md)
 
+[快速掌握Webpack](https://github.com/weita0/blog/blob/master/webpack.md)
 
+[Webpack Plugins大起底](https://github.com/weita0/blog/blob/master/plugins-of-webpack.md)
+
+[Webpack Loaders大起底](https://github.com/weita0/blog/blob/master/loaders-of-webpack.md)
 
 ### Node合集
 [Timer & Event Loop](https://github.com/weita0/blog/blob/master/2017-09-28.md)
