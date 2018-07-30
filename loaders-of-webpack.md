@@ -58,6 +58,7 @@ use
 options
 
 | name | default | desc |
+| ---- | ------- | ---- |
 | url | true | enable/disable url() handling |
 | import | true | enable/disable @import handling |
 | modules | false | enable/disable css modules |

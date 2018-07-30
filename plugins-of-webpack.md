@@ -40,3 +40,19 @@ module.exports = {
   }
 }
 ```
+
+## HtmlWebpackPlugin
+
+intro
+
+替你创建包含所有依赖项的**index.html**，如果你生成的文件名中包含hash，你就不用每次build之后去手动修改script标签里的src值了
+
+install
+
+```sh
+npm install -S html-webpack-plugin
+```
+
+usage
+
+
