@@ -73,9 +73,9 @@ MobX把这些衍生分为两种：
 
 ![uni-directional data flow](https://mobx.js.org/images/action-state-view.png)
 
-![flow graph](https://mobx.js.org/docs/flow.png)
+![flow graph](https://mobx.js.org/docs/flow.png =600x)
 
-![another fg](https://mobx.js.org/getting-started-assets/overview.png)
+![another fg](https://mobx.js.org/getting-started-assets/overview.png =300*)
 
 ## API
 
